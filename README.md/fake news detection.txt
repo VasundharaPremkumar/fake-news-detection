@@ -1,19 +1,22 @@
-@"
-# Fake News Detection
+# 📰 Fake News Detection  
+A machine learning project that classifies news articles as **Real** or **Fake** using Natural Language Processing (NLP) and machine learning.
 
-Small project that trains a TF-IDF + Logistic Regression classifier to detect fake news.
-This repo contains the data-processing and training scripts and a small prediction script.
+---
 
-## Structure
-- `data/` — raw datasets (ignored from git; keep local)
-- `models/` — saved model & vectorizer (ignored from git)
-- `src/` — code (`fakenews.py`, `train_and_save.py`, `predict.py`, `app.py`)
-- `README.md` — this file
-- `requirements.txt` — Python dependencies
+## 📌 Project Overview
+This project uses **TF-IDF vectorization** and a **Logistic Regression** model to classify news headlines or articles as real or fake.  
+The goal is to build a simple and effective fake news classifier using classical machine learning techniques.
 
-## How to run (quick)
-1. Create virtualenv and install deps:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate   # or venv\Scripts\activate on Windows
-   pip install -r requirements.txt
+---
+
+## 🚀 Features
+- Text preprocessing  
+- TF-IDF vectorizer for converting text into numerical features  
+- Logistic Regression classifier for prediction  
+- Model saved using Joblib  
+- Prediction script for testing custom input text  
+
+---
+
+## 📂 Project Structure
+
